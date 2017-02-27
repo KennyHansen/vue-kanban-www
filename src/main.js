@@ -17,7 +17,7 @@ new Vue({
   components: { App }
 })
 
-var client = io('http://localhost:3000');
+var client = io('https://vue-hobord.herokuapp.com');
 
 client.on('connection', function (socket) {
     console.log(socket);
