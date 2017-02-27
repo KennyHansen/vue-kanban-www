@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 let api = axios.create({
-    baseURL: 'http://localhost:3000/api/',
+    baseURL: 'https://vue-hobord.herokuapp.com/api/',
     timeout: 30000,
     withCredentials: true
 })
@@ -108,7 +108,7 @@ let boardStore = {
         },
         register(username, email, password) {
             state.isLoading = true
-            api.post('http://localhost:3000/register',{
+            api.post('https://vue-hobord.herokuapp.com/register',{
                 name:username,
                 email:email,
                 password:password
@@ -117,13 +117,13 @@ let boardStore = {
             }).catch(handleError)
         },
         logout() {
-            api.delete('http://localhost:3000/logout').then(res => {
+            api.delete('https://vue-hobord.herokuapp.com/logout').then(res => {
                 state.activeUser = {}
                 this.getBoards()
             }).catch(handleError)
         },
         authenticate() {
-            api('http://localhost:3000/authenticate').then(res => {
+            api('https://vue-hobord.herokuapp.com/authenticate').then(res => {
                 if(res.data.data) {
                     state.activeUser = res.data.data
                     this.getBoards()
