@@ -1,0 +1,196 @@
+
+#app {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  background-color: lightyellow;
+}
+.inline-flex {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+}
+
+.main[data-v-f9371270] {
+    text-align: right;
+    padding-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.board[data-v-5337eb44] {
+  padding: 10px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list[data-v-10ae4d1c] {
+  margin: 0px;
+  min-height: 500px;
+}
+
+.list[data-v-32eec754] {
+  min-height: 500px;
+}
+
+.task[data-v-7de155bd] {
+  display: inline-block;
+  width: 80%;
+}
+.task-head[data-v-7de155bd] {
+  padding: 2px 5px;
+}
+i[data-v-7de155bd] {
+  /*display: block;*/
+  margin: 0px;
+}
+
+/*# sourceMappingURL=app.0aab4ea27c696f734c08fbdfff544116.css.map*/
