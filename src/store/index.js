@@ -98,7 +98,7 @@ let boardStore = {
         // USER AUTHENTICATION
         login(email, password) {
             state.isLoading = true
-            api.post('http://localhost:3000/login',{
+            api.post('https://vue-hobord.herokuapp.com/login',{
                 email:email,
                 password:password
             }).then(res => {
